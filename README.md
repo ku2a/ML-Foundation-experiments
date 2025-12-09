@@ -60,5 +60,23 @@ The following algorithms were implemented and tuned using `GridSearchCV`:
 ## File Structure
 
 *   `Completo.ipynb`: The main notebook containing the full pipeline: data loading, preprocessing, all model experiments, and final evaluation.
+
+## Plots
+
+| ![Visualización](docs/SVM.png) |
+|:--:| 
+| *Modelo SVM* |
+
+| ![Visualización](docs/LogReg.png) |
+|:--:| 
+| *Modelo de Regresión Logística* |
+
+| ![Visualización](docs/tree.png) |
+|:--:| 
+| *Modelo de Árboles de Decisiones* |
+
+| ![Visualización](docs/shap.png) |
+|:--:| 
+| *Shapely values del modelo KNN* |
 *   `preproc.ipynb`: Dedicated notebook for data cleaning and feature engineering (generating `.csv` files in `data/`).
 *   `src/`: Contains modular notebooks for specific algorithms (SVM, KNN, Decision Trees, etc.).
